@@ -1,0 +1,26 @@
+2020-07-01 16:37:09,596 +0300 [main] DEBUG (Main.java:17) - Helo World !!!
+2020-07-02 08:52:26,643 +0300 [main] DEBUG (Random.java:76) - 3
+2020-07-02 08:52:26,645 +0300 [main] DEBUG (Random.java:77) - 3
+2020-07-02 08:52:42,494 +0300 [main] DEBUG (Random.java:76) - 3
+2020-07-02 08:52:42,496 +0300 [main] DEBUG (Random.java:77) - 3
+2020-07-02 08:55:28,230 +0300 [main] DEBUG (Random.java:77) - 3
+2020-07-02 08:55:28,238 +0300 [main] DEBUG (Random.java:78) - 3
+2020-07-02 08:55:28,239 +0300 [main] DEBUG (Random.java:77) - 3
+2020-07-02 08:55:28,242 +0300 [main] DEBUG (Random.java:78) - 3
+2020-07-02 08:55:28,242 +0300 [main] DEBUG (Random.java:77) - 3
+2020-07-02 08:55:28,243 +0300 [main] DEBUG (Random.java:78) - 3
+2020-07-02 08:55:28,243 +0300 [main] DEBUG (Random.java:77) - 3
+2020-07-02 08:55:28,244 +0300 [main] DEBUG (Random.java:78) - 3
+2020-07-02 08:55:28,244 +0300 [main] DEBUG (Random.java:77) - 3
+2020-07-02 08:55:28,244 +0300 [main] DEBUG (Random.java:78) - 3
+2020-07-02 08:56:06,777 +0300 [main] DEBUG (Random.java:77) - 3
+2020-07-02 08:56:06,779 +0300 [main] DEBUG (Random.java:78) - 3
+2020-07-02 08:56:06,780 +0300 [main] DEBUG (Random.java:77) - 3
+2020-07-02 08:56:06,780 +0300 [main] DEBUG (Random.java:78) - 3
+2020-07-02 08:56:06,780 +0300 [main] DEBUG (Random.java:77) - 3
+2020-07-02 08:56:06,780 +0300 [main] DEBUG (Random.java:78) - 3
+2020-07-02 08:56:06,781 +0300 [main] DEBUG (Random.java:77) - 3
+2020-07-02 08:56:06,781 +0300 [main] DEBUG (Random.java:78) - 3
+2020-07-02 08:56:06,782 +0300 [main] DEBUG (Random.java:77) - 3
+2020-07-02 08:56:06,782 +0300 [main] DEBUG (Random.java:78) - 3
+2020-07-02 08:56:06,782 +0300 [main] INFO  (Random.java:80) - Random{array=[1, 2, 3], weight=[1, 2, 10]}
