@@ -11,8 +11,8 @@ import java.util.Map;
 public class Random {
     private static final Logger LOGGER = Logger.getLogger(Random.class);
 
-    private int[] array = new int[20];
-    private int[] weight = new int[20];
+    private int[] array;
+    private int[] weight;
     Map<Integer, Float> map = new HashMap<Integer, Float>();
     int max = 0, sum = 0;
 
@@ -37,9 +37,7 @@ public class Random {
     }
 
     public int generate() {
-        //System.out.println("sum = " + sum);
         int random = (int) (Math.random() * 100 + 1);
-        //System.out.print("rand = " + random + "\t");
         float temp = (float) random;
         //System.out.print("rand = " + random + "\t" + temp + "\t");
         for (int i = 1; i < weight.length + 1; i++) {
@@ -64,23 +62,6 @@ public class Random {
                 '}';
     }
 
-    public static void main(String[] args) {
-        PropertyConfigurator.configure("log4j.properties");
-        int[] arr1 = new int[]{1, 2, 3};
-        int[] arr2 = new int[]{1, 2, 10};
-        Random random = new Random(arr1, arr2);
 
-       /* System.out.println(random.toString());
-        System.out.println(random.getMap());*/
-
-        for (int i = 0; i < 5; i++) {
-            LOGGER.debug(random.generate());
-            LOGGER.debug(random.generate());
-        }
-        LOGGER.info(random.toString());
-
-
-
-    }
 
 }
